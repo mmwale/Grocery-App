@@ -39,11 +39,32 @@ npm install
 expo start  
 
 Project Structure
-grocery-app/  
-├── client/          # React Native app  
-├── server/          # Node.js backend  
-├── database/        # SQL scripts & migrations  
-└── docs/            # API references, designs 
+grocery-app/
+├── client/                  # Frontend (React Native)
+│   ├── assets/              # Images, fonts, etc.
+│   ├── components/          # Reusable UI components
+│   ├── screens/             # App screens (Home, Shopping List, Budget, etc.)
+│   ├── navigation/          # Routing (React Navigation)
+│   ├── context/             # State management (Redux/Context API)
+│   ├── services/            # API calls (Axios/Fetch)
+│   └── App.js               # Main entry point
+│
+├── server/                  # Backend (Node.js + Express)
+│   ├── controllers/         # Business logic
+│   ├── models/              # Database models (PostgreSQL/MongoDB)
+│   ├── routes/              # API endpoints
+│   ├── middleware/          # Auth, error handling
+│   └── server.js            # Server entry point
+│
+├── database/                # Database scripts/SQL files (if using PostgreSQL)
+│
+├── docs/                    # Project documentation
+│   ├── API.md               # API endpoints
+│   └── DESIGN.md            # UI mockups (Figma links)
+│
+├── .gitignore              # Ignore node_modules, .env, etc.
+├── README.md               # Project overview + setup instructions
+└── package.json            # Shared scripts (e.g., `npm run dev`)
 
 How to Contribute
 Fork the repository.
