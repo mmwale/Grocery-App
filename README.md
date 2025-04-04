@@ -41,7 +41,9 @@ expo start
 Project Structure
 
 grocery-app/
+
 ├── client/                  # Frontend (React Native)
+
 │   ├── assets/              # Images, fonts, etc.
 │   ├── components/          # Reusable UI components
 │   ├── screens/             # App screens (Home, Shopping List, Budget, etc.)
