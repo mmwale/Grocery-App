@@ -67,15 +67,11 @@ grocery-app/
 └── package.json            # Shared scripts (e.g., `npm run dev`)
 
 How to Contribute
-Fork the repository.
-
-Create a feature branch (git checkout -b feature/your-feature).
-
-Commit changes (git commit -m 'Add amazing feature').
-
-Push to the branch (git push origin feature/your-feature).
-
-Open a Pull Request.
+1.Fork the repository.
+2.Create a feature branch (git checkout -b feature/your-feature).
+3.Commit changes (git commit -m 'Add amazing feature').
+4.Push to the branch (git push origin feature/your-feature).
+5.Open a Pull Request.
 
 
 License
