@@ -40,7 +40,7 @@ expo start
 
 Project Structure
 
-grocery-app/
+src/
 
 ├── client/                  # Frontend (React Native)
 
