@@ -39,6 +39,7 @@ npm install
 expo start  
 
 Project Structure
+
 grocery-app/
 ├── client/                  # Frontend (React Native)
 │   ├── assets/              # Images, fonts, etc.
